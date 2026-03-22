@@ -33,6 +33,11 @@ svg.logo {
   display: inline-block;
 }
 
+/* buttons */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold text-sm bg-primary text-dark hover:opacity-90 transition-opacity;
+}
+
 /* generic page styles */
 .page-content {
   @apply my-4 mx-auto w-6xl min-w-2xl max-w-full;
