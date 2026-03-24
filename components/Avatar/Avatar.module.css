@@ -1,0 +1,16 @@
+@reference "../../app/globals.css";
+
+.wrapper {
+  @apply flex items-center gap-3;
+}
+
+.avatar {
+  @apply bg-primary text-dark font-bold rounded-full flex items-center justify-center shrink-0 select-none;
+  width: 48px;
+  height: 48px;
+  font-size: 1rem;
+}
+
+.name {
+  @apply text-heading text-sm font-medium;
+}
